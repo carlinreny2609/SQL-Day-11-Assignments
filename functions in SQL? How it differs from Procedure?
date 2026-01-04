@@ -1,0 +1,24 @@
+Functions:
+----------
+
+A function is a specialized type of stored program designed to return a single value. Typically, you use
+stored functions to encapsulate common formulas or business rules, making them reusable across SQL
+statements or other stored programs.
+
+- Cannot perform transactions (like INSERT, UPDATE, DELETE).
+- Only input parameters are allowed.
+- No exception handling with TRY…CATCH.
+
+
+
+procedure:
+-----------
+
+A stored procedure is a block of SQL code that can perform multiple operations and may or may not return values.
+
+- Can return zero, one, or multiple values.
+- Supports both input and output parameters.
+- Can include DML operations (INSERT, UPDATE, DELETE).
+- Allows exception handling (TRY…CATCH).
+
+Functions are lightweight and in-line with queries, while procedures are heavier but more powerful.
